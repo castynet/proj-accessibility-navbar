@@ -1,0 +1,36 @@
+.main-nav-wrapper {
+  background-color: black;
+  width: 30px;
+  position: fixed;
+  top: 70%;
+  left: 0;
+}
+
+.fluid {
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  margin: -4 !important;
+}
+
+.circle-top {
+  border-radius: 0 0 0 10000px;
+}
+
+.circle-bottom {
+  border-radius: 10000px 0 0 0;
+}
+
+.main-nav-circle {
+  background-color: #000;
+  height: 30px;
+  width: 30px;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
